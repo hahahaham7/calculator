@@ -53,5 +53,11 @@ public class CalculatorTest {
         int result = calc.div(-4, -2);
         assertEquals(2, result);
     }
+    @Test
+    public void test_곱셈(){
+        Calculator calc = new Calculator();
+        int result = calc.mul(5, 2);
+        assertEquals(10, result);
+    }
 
 }
