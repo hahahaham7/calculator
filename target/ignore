@@ -1,0 +1,14 @@
+/.idea/
+/target/
+
+#files
+*.class
+*.imi
+test.xml
+
+
+#eclipse
+.project
+.metadata
+
+bin/**
